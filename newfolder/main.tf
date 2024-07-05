@@ -1,4 +1,4 @@
-resource "null_resource" "screen_output" {
+resource "null_resource" "local_name" {
 count = 4
   provisioner "local-exec" {
     command = <<EOT
