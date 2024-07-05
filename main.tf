@@ -6,3 +6,7 @@ count = 3
     EOT
   }
 }
+
+module "newfolder" {
+  source = "./newfolder"
+}
